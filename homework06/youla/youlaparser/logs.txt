@@ -1,0 +1,32 @@
+2020-01-20 00:16:04 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: youlaparser)
+2020-01-20 00:16:04 [scrapy.utils.log] INFO: Versions: lxml 4.3.4.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Windows-10-10.0.17763-SP0
+2020-01-20 00:16:04 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'youlaparser', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_IP': 8, 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'logs.txt', 'NEWSPIDER_MODULE': 'youlaparser.spiders', 'SPIDER_MODULES': ['youlaparser.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'}
+2020-01-20 00:16:05 [scrapy.extensions.telnet] INFO: Telnet Password: 1175f9749f575dd8
+2020-01-20 00:16:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-01-20 00:16:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-01-20 00:16:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-01-20 00:16:05 [scrapy.middleware] INFO: Enabled item pipelines:
+['youlaparser.pipelines.YoulaparserPipeline']
+2020-01-20 00:16:05 [scrapy.core.engine] INFO: Spider opened
+2020-01-20 00:16:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-01-20 00:16:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-01-20 00:16:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://youla.ru/moskva/zhenskaya-odezhda> (referer: None)

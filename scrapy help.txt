@@ -8,6 +8,8 @@ ROBOTSTXT_OBEY = False
 LOG_ENABLED = True
 LOG_LEVEL = 'DEBUG'
 LOG_FILE = 'logs.txt'
+ITEM_PIPELINES
+
 etc
 
 1. parse in spider (hh)
